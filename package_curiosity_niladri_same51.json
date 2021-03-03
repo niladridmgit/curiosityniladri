@@ -1,20 +1,26 @@
 {
   "packages": [
     {
-	  "name": "curiosityniladri",
+      "name": "curiosityniladri",
       "maintainer": "curiosityniladri",
-	  "websiteURL": "https://github.com/niladridmgit/curiosityniladri",
-	  "email" : "niladri.dm.rsb@gmail.com",
+      "websiteURL": "https://github.com/niladridmgit/curiosityniladri",
+      "email": "niladri.dm.rsb@gmail.com",
+      "help": {
+        "online": "https://github.com/niladridmgit/curiosityniladri"
+      },
       "platforms": [
         {
-		  "name": "Curiosity Niladri SAME51 Boards",
-		  "architecture": "samd",
+          "name": "Curiosity Niladri SAME51 Boards",
+          "architecture": "samd",
           "category": "curiosityniladri",
           "version": "1.0.0",
           "url": "https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/download/curiosityniladri-1.0.0.zip",
-		  "archiveFileName": "curiosityniladri-1.0.0.zip",
-		  "checksum": "SHA-256:5685882fd3139d2e956430f73da2c4d3f4cef375d2c853758c28c3e7ddb6525c",
-		  "size": "1063413",
+          "archiveFileName": "curiosityniladri-1.0.0.zip",
+          "checksum": "SHA-256:5685882fd3139d2e956430f73da2c4d3f4cef375d2c853758c28c3e7ddb6525c",
+          "size": "1063413",
+          "help": {
+            "online": "https://github.com/niladridmgit/curiosityniladri"
+          },
           "boards": [
             {
               "name": "Curiosity Niladri SAME51J20A"
@@ -58,7 +64,6 @@
             }
           ]
         }
-      
       ],
       "tools": [
         {
