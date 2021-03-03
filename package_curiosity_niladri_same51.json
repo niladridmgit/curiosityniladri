@@ -28,19 +28,14 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "adafruit",
+              "packager": "Longan",
               "name": "arm-none-eabi-gcc",
               "version": "9-2019q4"
             },
             {
-              "packager": "arduino",
+              "packager": "Longan",
               "name": "bossac",
-              "version": "1.7.0-arduino3"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
+              "version": "1.9.2"
             },
             {
               "packager": "arduino",
@@ -48,14 +43,14 @@
               "version": "0.10.0-arduino7"
             },
             {
-              "packager": "adafruit",
+              "packager": "Longan",
               "name": "CMSIS",
               "version": "5.4.0"
             },
             {
-              "packager": "arduino",
+              "packager": "Longan",
               "name": "CMSIS-Atmel",
-              "version": "1.2.0"
+              "version": "1.2.1"
             },
             {
               "packager": "arduino",
@@ -73,51 +68,148 @@
             {
               "host": "i686-mingw32",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "arm-linux-gnueabihf",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "aarch64-linux-gnu",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
             },
             {
               "host": "all",
               "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
-              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-Longan.tar.gz",
               "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
               "size": "153772853"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS-Atmel",
+          "version": "1.2.1",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1-Longan.tar.bz2",
+              "checksum": "SHA-256:4efe2157f7cc062dfb67ac8aa533accc590a392fe0d05fd4b2fba1b6ea1db324",
+              "size": "2380531"
+            }
+          ]
+        },
+        {
+          "name": "bossac",
+          "version": "1.9.2",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Longan-Labs/LONGAN-SAME-TOOLS/raw/master/bossac-1.9.2-arduino-windows.tar.gz",
+              "archiveFileName": "bossac-1.9.2-arduino-windows.tar.gz",
+              "checksum": "SHA-256:2E3B45770A81052FDFC4681CAEE3A923637C908EED6663C9C9B40B32C5158225",
+              "size": "115647"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino1-osx.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino-osx.tar.gz",
+              "checksum": "SHA-256:c356632f98d5bae9b4f5d3ad823a5ee89b23078c2b835e8ac39a208f4855b0e6",
+              "size": "47835"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino1-linux64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino-linux64.tar.gz",
+              "checksum": "SHA-256:d3d324a3503a8db825c01f3b38519e4d4824c4d0e42cb399a16c1e074f9a9a86",
+              "size": "399453"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino1-linux32.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino-linux32.tar.gz",
+              "checksum": "SHA-256:eec622b8b5a8642af94ec23febfe14c928edd734f144db73b146bf6708d2057f",
+              "size": "384792"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino1-linuxarm.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino-linuxarm.tar.gz",
+              "checksum": "SHA-256:b42061d2fa2dbd6910d0d295e024f2cff7bb44f3e2ecc0bc2fe71a1f31b0ecba",
+              "size": "361799"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino1-linuxaarch64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino-linuxaarch64.tar.gz",
+              "checksum": "SHA-256:b271013841e1e25ee55f241e8c50a56ed775d3b322844e1e3099231ba17f3868",
+              "size": "442657"
             }
           ]
         },
@@ -168,108 +260,6 @@
               "size": "97427309"
             }
           ]
-        },
-        {
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
-              "size": "96372129",
-              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
-              "size": "92811866",
-              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
-              "size": "92811866",
-              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
-            },
-            {
-              "host": "i686-mingw32",
-              "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
-              "size": "102981732",
-              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
-            }
-          ],
-          "name": "gcc-arm-none-eabi",
-          "version": "5_2-2015q4"
-        },
-        {
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
-              "size": "362222",
-              "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
-              "size": "177428",
-              "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
-              "size": "190020",
-              "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
-            },
-            {
-              "host": "i686-mingw32",
-              "checksum": "MD5:8352392ae0272173e1508d1218f51671",
-              "size": "851576",
-              "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
-              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
-            }
-          ],
-          "name": "nrfjprog",
-          "version": "9.4.0"
-        },
-        {
-          "systems": [
-            {
-              "host": "i686-linux-gnu",
-              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
-              "size": "28295",
-              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
-              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
-              "size": "28667",
-              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
-              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz"
-            },
-            {
-              "host": "i386-apple-darwin11",
-              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
-              "size": "3742",
-              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
-              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz"
-            },
-            {
-              "host": "i686-mingw32",
-              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
-              "size": "525710",
-              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
-              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz"
-            }
-          ],
-          "name": "wiced_dfu",
-          "version": "1.0.0"
         }
       ]
     }
