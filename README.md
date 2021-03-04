@@ -12,7 +12,7 @@ How to install this board package in your Arduino IDE? No worry, below you can f
 **1. Install "curiosniladri" board package:**
 add below link to Arduino IDE (1.8.x) -> Preferences -> Additional Boards Mangers URLs
 
-" https://github.com/niladridmgit/curiosityniladri/blob/master/package_curiosityniladri_index.json "
+" https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/package_curiosityniladri_index.json "
 
 ![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/arduino_ide_preferences.JPG)
    
