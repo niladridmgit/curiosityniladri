@@ -16,3 +16,24 @@ add below link to Arduino IDE (1.8.x) -> Preferences -> Additional Boards Manger
 
 ![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/arduino_ide_preferences.JPG)
    
+![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/package_link.JPG)
+
+**2. Search "curiosniladri" in Boards Manager**
+
+Install latest package
+
+![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/BoardsManager.JPG)
+
+
+**3. Select proper board file chip number**
+select chip no **SAME51J20A**
+
+![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/boards_selection.png)
+
+**4. Write Hello world and blink LED0**
+
+![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/HelloWorld.JPG)
+
+**5. Flash the binary using Microchip Studio**
+
+![alt text](https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/images/programming.JPG)
