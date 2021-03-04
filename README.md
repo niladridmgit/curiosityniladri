@@ -9,5 +9,5 @@ This Arduino Board package you can use to develop your appication using Arduino 
 This package support most of the perpherals of SAME51J20A microcontroller which you may required for your project.
 How to install this board package in your Arduino IDE? No worry, below you can found step by step guidence.
 
-1. Install curiosniladri board package:
+**1. Install "curiosniladri" board package:**
     
