@@ -1,4 +1,5 @@
-If you are looking for Low cost Evaluation Kit with CAN FD support then you might go for SAM E51 Curiosity Nano Evaluation Kit
+If you are looking for Low cost Evaluation Kit with CAN FD support then you might go for SAM E51 Curiosity Nano Evaluation Kit which is 
+one of the low cost 15$ Evaluation Kit has ARM Cortex-M4F CPU running at up to 120 MHz. It has 2 CAN FD and 1024KB program memory
 
 Link of the product : https://www.microchip.com/Developmenttools/ProductDetails/EV76S68A
 
