@@ -28,29 +28,9 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "curiosityniladri",
-              "name": "arm-none-eabi-gcc",
-              "version": "9-2019q4"
-            },
-            {
-              "packager": "curiosityniladri",
-              "name": "bossac",
-              "version": "1.9.2"
-            },
-            {
               "packager": "arduino",
               "name": "openocd",
               "version": "0.10.0-arduino7"
-            },
-            {
-              "packager": "curiosityniladri",
-              "name": "CMSIS",
-              "version": "5.4.0"
-            },
-            {
-              "packager": "curiosityniladri",
-              "name": "CMSIS-Atmel",
-              "version": "1.2.1"
             },
             {
               "packager": "arduino",
