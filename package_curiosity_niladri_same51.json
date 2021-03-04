@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "curiosityniladri",
-      "maintainer": "curiosityniladri",
+      "maintainer": "Niladri",
       "websiteURL": "https://github.com/niladridmgit/curiosityniladri",
       "email": "niladri.dm.rsb@gmail.com",
       "help": {
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Curiosity Niladri SAME51 Boards",
+          "name": "curiosityniladri",
           "architecture": "samd",
           "category": "curiosityniladri",
           "version": "1.0.0",
@@ -23,7 +23,7 @@
           },
           "boards": [
             {
-              "name": "Curiosity Niladri SAME51J20A"
+              "name": "curiosityniladri"
             }
           ],
           "toolsDependencies": [
