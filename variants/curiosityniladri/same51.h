@@ -42,7 +42,7 @@
 #elif defined(__SAME51J18A__) || defined(__ATSAME51J18A__)
   #include "same51j18a.h"
 #elif defined(__SAME51J19A__) || defined(__ATSAME51J19A__)
-  #include "same51j20a.h"
+  #include "same51j19a.h"
 #elif defined(__SAME51J20A__) || defined(__ATSAME51J20A__)
   #include "same51j20a.h"
 #elif defined(__SAME51N19A__) || defined(__ATSAME51N19A__)

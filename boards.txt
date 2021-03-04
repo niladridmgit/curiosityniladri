@@ -1,3 +1,4 @@
+menu.chip=Chip
 menu.cache=Cache
 menu.speed=CPU Speed
 menu.opt=Optimize
@@ -5,9 +6,9 @@ menu.maxqspi=Max QSPI
 #menu.usbstack=USB Stack
 menu.debug=Debug
 
-# Curiosity Niladri SAME51J20A (SAME51)
+# Curiosity Niladri SAME51 (SAME51)
 # ----------------------------------------------------------------------
-SAME51J20A_Curiosity_Niladri.name=Curiosity Niladri SAME51J20A (SAME51)
+SAME51J20A_Curiosity_Niladri.name=Curiosity Niladri SAME51 (SAME51)
 SAME51J20A_Curiosity_Niladri.vid.0=0x239A
 SAME51J20A_Curiosity_Niladri.pid.0=0x80CD
 SAME51J20A_Curiosity_Niladri.vid.1=0x239A
@@ -21,17 +22,23 @@ SAME51J20A_Curiosity_Niladri.upload.wait_for_upload_port=true
 #SAME51J20A_Curiosity_Niladri.upload.native_usb=true
 SAME51J20A_Curiosity_Niladri.build.mcu=cortex-m4
 #SAME51J20A_Curiosity_Niladri.build.f_cpu=120000000L
-#SAME51J20A_Curiosity_Niladri.build.usb_product="Curiosity Niladri SAME51J20A"
+#SAME51J20A_Curiosity_Niladri.build.usb_product="Curiosity Niladri SAME51"
 #SAME51J20A_Curiosity_Niladri.build.usb_manufacturer="CareRealSense"
 SAME51J20A_Curiosity_Niladri.build.board=CURIOSITYNILADRI
 SAME51J20A_Curiosity_Niladri.build.core=arduino
-SAME51J20A_Curiosity_Niladri.build.extra_flags=-D__SAME51J20A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
+#SAME51J20A_Curiosity_Niladri.build.extra_flags=-D__SAME51J20A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
 SAME51J20A_Curiosity_Niladri.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
 SAME51J20A_Curiosity_Niladri.build.variant=curiosityniladri
 SAME51J20A_Curiosity_Niladri.build.variant_system_lib=
 SAME51J20A_Curiosity_Niladri.build.vid=0x239A
 SAME51J20A_Curiosity_Niladri.build.pid=0x80CD
 SAME51J20A_Curiosity_Niladri.compiler.arm.cmsis.ldflags="-L{runtime.tools.CMSIS-5.4.0.path}/CMSIS/Lib/GCC/" "-L{build.variant.path}" -larm_cortexM4lf_math -mfloat-abi=hard -mfpu=fpv4-sp-d16
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J20A=SAME51J20A
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J20A.build.extra_flags=-D__SAME51J20A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J19A=SAME51J19A
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J19A.build.extra_flags=-D__SAME51J19A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J18A=SAME51J18A
+SAME51J20A_Curiosity_Niladri.menu.chip.SAME51J18A.build.extra_flags=-D__SAME51J18A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
 SAME51J20A_Curiosity_Niladri.menu.cache.on=Enabled
 SAME51J20A_Curiosity_Niladri.menu.cache.on.build.cache_flags=-DENABLE_CACHE
 SAME51J20A_Curiosity_Niladri.menu.cache.off=Disabled

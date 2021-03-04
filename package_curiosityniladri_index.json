@@ -63,6 +63,61 @@
               "version": "1.2.1"
             }
           ]
+        },
+        {
+          "name": "curiosityniladri",
+          "architecture": "samd",
+          "category": "curiosityniladri",
+          "version": "1.1.0",
+          "url": "https://raw.githubusercontent.com/niladridmgit/curiosityniladri/master/download/curiosityniladri-1.1.0.zip",
+          "archiveFileName": "curiosityniladri-1.1.0.zip",
+          "checksum": "SHA-256:1e6629d5fb3c90e0918faa941e34adff3d345aa0ed9566c55ebf6bbe5b9a7889",
+          "size": "1063470",
+          "help": {
+            "online": "https://github.com/niladridmgit/curiosityniladri"
+          },
+          "boards": [
+            {
+              "name": "curiosityniladri"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "curiosityniladri",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "curiosityniladri",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools":[
