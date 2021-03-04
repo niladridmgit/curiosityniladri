@@ -5,7 +5,9 @@ Link of the product : https://www.microchip.com/Developmenttools/ProductDetails/
 
 ![alt text](https://www.microchip.com/_ImagedCopy/200511-MCU32-PHOTO-EV76S68A_SAM-E51-Curiosity-Nano-Front-Transparent.png)
 
-This Arduino Board package you can use to develop your appication using Arduino IDe 
-This support most of the perpheral of SAME51J20A microcontroller which you may required for your project
+This Arduino Board package you can use to develop your appication using Arduino IDE.
+This package support most of the perpherals of SAME51J20A microcontroller which you may required for your project.
 How to install this board package in your Arduino IDE? No worry, below you can found step by step guidence.
 
+1. Install curiosniladri board package:
+    
